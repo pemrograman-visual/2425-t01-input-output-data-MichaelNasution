@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:15:52 AM"/>
+        <attribute name="created" value="QVNVUztLQUxFSDsyMDI0LTA5LTA2OzEwOjA4OjUwIEFNOzE5Mzk="/>
+        <attribute name="edited" value="QVNVUztLQUxFSDsyMDI0LTA5LTA2OzExOjE1OjUyIEFNOzM7MjA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN, JUDUL, PENULIS, PENERBIT, FormatBuku" type="String" array="False" size=""/>
+            <declare name="TahunTerbit, StokBuku" type="Integer" array="False" size=""/>
+            <declare name="HargaPembelian, MinMargin, Rating" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="JUDUL"/>
+            <input variable="PENULIS"/>
+            <input variable="TahunTerbit"/>
+            <input variable="PENERBIT"/>
+            <input variable="FormatBuku"/>
+            <input variable="HargaPembelian"/>
+            <input variable="MinMargin"/>
+            <input variable="StokBuku"/>
+            <input variable="Rating"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;HargaPembelian&amp;&quot;|&quot;&amp;MinMargin&amp;&quot;|&quot;&amp;StokBuku&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
