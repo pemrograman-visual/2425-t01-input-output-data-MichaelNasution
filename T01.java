@@ -15,13 +15,13 @@ public class T01 {
         iSBN = input.nextLine();
         jUDUL = input.nextLine();
         pENULIS = input.nextLine();
-        tahunTerbit = input.nextInt();
+        tahunTerbit = Integer.parseInt(input.nextLine());
         pENERBIT = input.nextLine();
         formatBuku = input.nextLine();
-        hargaPembelian = input.nextDouble();
-        minMargin = input.nextDouble();
-        stokBuku = input.nextInt();
-        rating = input.nextDouble();
+        hargaPembelian = Double.parseDouble(input.nextLine());
+        minMargin = Double.parseDouble(input.nextLine());
+        stokBuku = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tahunTerbit + "|" + pENERBIT + "|" + formatBuku + "|" + hargaPembelian + "|" + minMargin + "|" + stokBuku + "|" + rating);
     }
 }
